@@ -1,0 +1,25 @@
+{
+	"layers":{
+		"cr": {
+			"id" : "distritos",
+			"src": "shp-fixed/Distritos.shp"
+
+			, "simplify": 1
+			
+			, "attributes": "all"
+			
+		}
+	}
+
+	,"proj": {
+	    "id": "satellite",
+	    "lon0": -84.0,
+	    "lat0": 8.0,
+	    "dist": 4.3
+	}
+	
+	,"bounds": {
+		"mode": "bbox", 
+		"data": [-85.95, 8, -82.5, 11.3]
+	}
+}
