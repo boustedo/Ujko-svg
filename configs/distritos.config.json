@@ -4,10 +4,12 @@
 			"id" : "distritos",
 			"src": "shp-fixed/Distritos.shp"
 
+      , "class": "ujko-canvas"
+
 			, "simplify": 1
-			
+
 			, "attributes": "all"
-			
+
 		}
 	}
 
@@ -17,9 +19,9 @@
 	    "lat0": 8.0,
 	    "dist": 4.3
 	}
-	
+
 	,"bounds": {
-		"mode": "bbox", 
+		"mode": "bbox",
 		"data": [-85.95, 8, -82.5, 11.3]
 	}
 }
