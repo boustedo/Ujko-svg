@@ -18,11 +18,9 @@ RUN apt-get install -y libxslt1-dev python-dev python-shapely python-gdal python
 
 RUN pip install https://github.com/kartograph/kartograph.py/zipball/master -r https://raw.github.com/kartograph/kartograph.py/master/requirements.txt
 
-RUN apt-get install -y joe
-
 VOLUME /workdir
 ADD README.md /tmp/splash.txt
 ADD runk.sh /runk.sh
 
-# - means to read stding parameters
+# - Run Kartograph :)
 ENTRYPOINT ["/./runk.sh"] 
