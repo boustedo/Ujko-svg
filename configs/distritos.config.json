@@ -2,14 +2,10 @@
 	"layers":{
 		"cr": {
 			"id" : "distritos",
-			"src": "shp-fixed/Distritos.shp"
-
-      , "class": "ujko-canvas"
-
-			, "simplify": 1
-
-			, "attributes": "all"
-
+			"src": "/workdir/shp-fixed/Distritos.shp", 
+			"class": "ujko-canvas", 
+			"simplify": 1, 
+			"attributes": "all"
 		}
 	}
 

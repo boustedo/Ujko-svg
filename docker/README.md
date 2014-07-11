@@ -11,26 +11,19 @@ https://github.com/esmitperez/Ujko-svg
 July 2014
 ===============================================================================
 
-1) Sugerencia: instale Docker.io y solo ejecute docker-create-map.sh
+- Comando en Linux/Mac OSX (Linux requiere sudo)
 
-- Modifique, si lo desea los shp files en shp-orig y shp-fixed, sugiero 
-QGIS (http://www.qgis.org/)
+   docker run -ti -v `pwd`:/workdir esmitperez/kartograph \
+	   --pretty-print \
+	   --style /workdir/css/cr.css \
+	   -o /workdir/svg/cr-ultralow-res.svg \
+	   /workdir/configs/distritos.config.json 
 
-- Modifique docker-create-map.sh según necesite.
+Tips:
 
-- Ejecute docker-create-map.sh
+- Si está usando Docker en MacOSX lea esto: 
+--- https://medium.com/boot2docker-lightweight-linux-for-docker/boot2docker-together-with-virtualbox-guest-additions-da1e3ab2465c
 
-
-2) Método alternativo (y más tedioso para usted):
-
-- Visite kartograph.org e instálelo
-
-- Ejecute el siguiente comando 
-
-kartograph \
-	--pretty-print \
-	--style css/cr.css \
-	-o svg/cr-ultralow-res.svg \
-	configs/distritos.config.json
+- Asegúrese de haber inicializado Docker, mapeando /workdir con '-v /folder/en/su/pc:/workdir' 
 
 ===============================================================================
