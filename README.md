@@ -10,7 +10,7 @@
 
 Autor: Esmit Pérez - esmitperez@gmail.com - [@esmitperez](http://twitter.com/@esmitperez)
 
-(GitHubRepo)[https://github.com/esmitperez/Ujko-svg]
+[GitHubRepo](https://github.com/esmitperez/Ujko-svg)
 
 July 2014
 
@@ -27,7 +27,7 @@ July 2014
 
 2) Método alternativo (y más tedioso para usted):
 
-- Visite (kartograph.org)[http://kartograph.org] e instálelo
+- Visite [kartograph.org](http://kartograph.org) e instálelo
 
 - Ejecute el siguiente comando 
 
