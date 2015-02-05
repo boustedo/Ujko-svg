@@ -15,10 +15,10 @@ Autor: Esmit Pérez - esmitperez@gmail.com - [@esmitperez](http://twitter.com/@e
 July 2014
 
 
-1) Sugerencia: instale Docker.io y solo ejecute ```docker-create-map.sh```
+1) Sugerencia: instale [Docker][http://Docker.io] y solo ejecute ```docker-create-map.sh```
 
 - Modifique, si lo desea los ```.shp``` files en ```shp-orig``` y ```shp-fixed```, sugiero 
-[QGIS][http://www.qgis.org/]
+[QGIS](http://www.qgis.org/)
 
 - Modifique ```docker-create-map.sh``` según necesite.
 
