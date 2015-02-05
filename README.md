@@ -27,7 +27,7 @@ July 2014
 
 2) Método alternativo (y más tedioso para usted):
 
-- Visite kartograph.org e instálelo
+- Visite (kartograph.org)[http://kartograph.org] e instálelo
 
 - Ejecute el siguiente comando 
 
