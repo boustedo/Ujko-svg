@@ -5,10 +5,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>399495.02534630859736353</xmin>
-            <ymin>961037.88640267285518348</ymin>
-            <xmax>721696.91231796843931079</xmax>
-            <ymax>1145758.89303116197697818</ymax>
+            <xmin>286302.95600420772098005</xmin>
+            <ymin>1049859.93760519335046411</ymin>
+            <xmax>723241.7951912177959457</xmax>
+            <ymax>1153637.69870920712128282</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -33,7 +33,7 @@
         </legendlayer>
     </legend>
     <projectlayers layercount="1">
-        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>Distritos20140227174618776</id>
             <datasource>./Distritos.shp</datasource>
             <title></title>
@@ -55,7 +55,7 @@
                 </spatialrefsys>
             </srs>
             <provider encoding="ISO-8859-1">ogr</provider>
-            <previewExpression></previewExpression>
+            <previewExpression>COALESCE( "PROV", '&lt;NULL>' )</previewExpression>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
@@ -100,7 +100,7 @@
                 <property key="labeling/fieldName" value=""/>
                 <property key="labeling/fontBold" value="true"/>
                 <property key="labeling/fontCapitals" value="0"/>
-                <property key="labeling/fontFamily" value="Ubuntu"/>
+                <property key="labeling/fontFamily" value=".Helvetica Neue DeskInterface"/>
                 <property key="labeling/fontItalic" value="true"/>
                 <property key="labeling/fontLetterSpacing" value="0"/>
                 <property key="labeling/fontLimitPixelSize" value="false"/>
@@ -125,7 +125,7 @@
                 <property key="labeling/minFeatureSize" value="0"/>
                 <property key="labeling/multilineAlign" value="0"/>
                 <property key="labeling/multilineHeight" value="1"/>
-                <property key="labeling/namedStyle" value="Bold Italic"/>
+                <property key="labeling/namedStyle" value=""/>
                 <property key="labeling/obstacle" value="true"/>
                 <property key="labeling/placeDirectionSymbol" value="0"/>
                 <property key="labeling/placement" value="0"/>
